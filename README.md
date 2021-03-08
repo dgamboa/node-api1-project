@@ -22,20 +22,19 @@ There are two possible ways to submit your project. Your instructor should have 
 
 #### Option B - Pull Request
 
-- [ ] Fork and clone the repository.
-- [ ] Implement your project in a `firstname-lastname` branch.
-- [ ] Create a pull request of `firstname-lastname` against your `main` branch.
-- [ ] Open the assignment in Canvas and submit your pull request.
+- [x] Fork and clone the repository.
+- [x] Implement your project in a `firstname-lastname` branch.
+- [x] Create a pull request of `firstname-lastname` against your `main` branch.
+- [x] Open the assignment in Canvas and submit your pull request.
 
 ### Task 2: Minimum Viable Product
 
-Use Node.js and Express to build an API that performs CRUD operations on users.
-
-- Add a `server` script to the `package.json` that runs the API using `nodemon`.
+- [x] Use Node.js and Express to build an API that performs CRUD operations on users.
+- [x] Add a `server` script to the `package.json` that runs the API using `nodemon`.
 
 ### Write endpoints
 
-Add the code necessary in `index.js` and `api/server.js` to create a Web API and implement the following _endpoints_:
+- [x] Add the code necessary in `index.js` and `api/server.js` to create a Web API and implement the following _endpoints_:
 
 | Method | URL            | Description                                                                                            |
 | ------ | -------------- | ------------------------------------------------------------------------------------------------------ |
@@ -78,7 +77,7 @@ When the client makes a `POST` request to `/api/users`:
 
 - If the information about the _user_ is valid:
 
-  - save the new _user_ the the database.
+  - save the new _user_ to the database.
   - respond with HTTP status code `201` (Created).
   - return the newly created _user document_ including its id.
 
